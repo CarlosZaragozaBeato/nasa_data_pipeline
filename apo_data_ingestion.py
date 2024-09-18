@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime 
 import os 
 
-API_KEY = "kcET3WMRllcQY6G4Cpyy0vU2beTM7nzH9iFngcTg"
+API_KEY = "##API_KEY##"
 APOD_API_URL = f"https://api.nasa.gov/planetary/apod?api_key={API_KEY}"
 DB_PATH = "./nasa_data_pipeline/database/nasa_data.db"
 
